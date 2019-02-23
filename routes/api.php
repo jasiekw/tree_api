@@ -22,6 +22,8 @@ Route::group([
     'roles' => ['admin', 'moderator']
 ], function () {
     Route::resource('categories', 'CategoriesController');
+    Route::get('categories-leveled', 'CategoriesController@getLeveledTree');
+    Route::get('categories-nested', 'CategoriesController@getNestedTree');
 });
 
 Route::group([

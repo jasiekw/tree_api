@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0b9eb5c50fb7a987659b0cc6f4d5082e",
+    "content-hash": "674bc1bc5f1e96b99a12f47bacdaa2e7",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -119,6 +119,51 @@
                 "laravel"
             ],
             "time": "2018-09-06T13:20:53+00:00"
+        },
+        {
+            "name": "bluem/tree",
+            "version": "2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BlueM/Tree.git",
+                "reference": "f730e944be161664d6b0119b5b334751c339d85f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BlueM/Tree/zipball/f730e944be161664d6b0119b5b334751c339d85f",
+                "reference": "f730e944be161664d6b0119b5b334751c339d85f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "doctrine/instantiator": "1.0.*",
+                "phpunit/phpunit": "6.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BlueM\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Carsten Blüm",
+                    "email": "carsten@bluem.net"
+                }
+            ],
+            "description": "Library for handling tree structures based on parent IDs, e.g. a self-joined database table",
+            "homepage": "https://github.com/BlueM/Tree",
+            "keywords": [
+                "hierarchical",
+                "tree"
+            ],
+            "time": "2018-02-04T17:35:27+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
